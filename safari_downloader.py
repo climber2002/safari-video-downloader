@@ -19,7 +19,7 @@ import config
 #     DOWNLOADER = './youtube-dl.exe' # Please download from https://github.com/rg3/youtube-dl
 
 class SafariDownloader:
-    def __init__(self, url, output_folder, username, password, domain='https://www.safaribooksonline.com', downloader_path='./youtube-dl.exe'):
+    def __init__(self, url, output_folder, username, password, domain='https://www.safaribooksonline.com', downloader_path='youtube-dl'):
         self.output_folder = output_folder
         self.username = username
         self.password = password
